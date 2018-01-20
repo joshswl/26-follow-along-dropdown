@@ -78,7 +78,8 @@
         background.classList.add('open');
 
         const dropdown = this.querySelector('.dropdown');
-        console.log(dropdown);
+        const dropdownCoords = dropdown.getBoundingClientRect();
+        console.log(dropdownCoords);
     }
 
     function handleLeave() {
